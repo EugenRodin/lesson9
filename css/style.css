@@ -90,9 +90,10 @@ a {
   display: block;
   transition: 0.1s;
 }
-/* .navbar__link :nth-child(1) {
+.navbar__items :hover {
+  color: var(--color-primary);
   scale: 1.1;
-} */
+}
 .header-content {
   width: 540px;
 }
@@ -170,6 +171,7 @@ a {
 }
 .video {
   align-items: center;
+  padding-bottom: 100px;
 }
 .video-iframe {
   width: 1110px;
