@@ -1,0 +1,38 @@
+@use "../presset" as *;
+.expirence {
+  padding: 100px 0;
+  background-color: $color-primary;
+  align-items: center;
+}
+.expirence__container {
+  display: flex;
+  justify-content: space-between;
+  gap: $gap-lg;
+  flex-wrap: wrap;
+}
+.expirence-item {
+  display: flex;
+  gap: $gap;
+}
+.expirence-item__content {
+  color: $color-white;
+}
+.expirence-item__number {
+  font-weight: 500;
+  font-size: 21px;
+}
+.expirence-item__text {
+  font-weight: 400;
+  font-size: 16px;
+}
+.process__title {
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 32px;
+}
+.process__description {
+  line-height: $line-height-lg;
+  font-weight: 400;
+  font-size: 16px;
+  color: $color-secondary;
+}

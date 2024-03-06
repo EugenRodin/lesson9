@@ -1,0 +1,30 @@
+@use "../presset" as *;
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.about__title {
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 32px;
+}
+.about__description {
+  line-height: $line-height-lg;
+  font-weight: 400;
+  font-size: 16px; 
+  color: $color-secondary;
+}
+.section {
+  padding-top: 112px;
+  padding-bottom: 100px;
+}

@@ -16,5 +16,5 @@ $line-height-lg: 1.64;
 $container-primary: 1110px;
 $container-sm: 540px;
 $gap: 20px;
-$gap-sm: calc($gap) / 2; /* 10px */
-$gap-lg: calc ($gap + ($gap) * 2); /* 40px*/
+$gap-sm: calc($gap / 2); /* 10px */
+$gap-lg: calc ($gap * 0,5); /* 40px*/
