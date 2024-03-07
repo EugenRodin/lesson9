@@ -192,7 +192,7 @@ a {
   -ms-flex-pack: justify;
   justify-content: space-between;
 
-  gap: calc 40px;
+  gap: 20px;
 }
 
 .expirence-item {
