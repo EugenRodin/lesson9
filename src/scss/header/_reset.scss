@@ -19,13 +19,20 @@ a {
   width: min(100% - 40px, $container-primary);
   margin-inline: auto;
 }
-.header {
-  background-color: $color-gray-light;
-  padding-top: 79px;
-  padding-bottom: 161px;
-  min-height: 700px;
-}
 .container--sm {
   width: min(100% - 40px, $container-sm);
   text-align: center;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
